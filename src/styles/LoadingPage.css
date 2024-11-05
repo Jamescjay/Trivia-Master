@@ -1,0 +1,41 @@
+.loading-page {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  color: white; /* Text color */
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); /* Optional: add a background gradient */
+}
+
+
+h1 {
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+.loading-bar {
+  width: 100%; /* Full width */
+  max-width: 600px; /* Set a maximum width similar to the homepage */
+  background-color: lightgray; /* Background color for the loading bar */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+  height: 30px; /* Height of the loading bar */
+  border: 2px solid white;
+}
+
+.loading {
+  width: 100%; /* Full width of the loading section */
+  height: 30px; /* Match the height of the loading bar */
+  background-color: rgb(56, 244, 56); /* Color of the loading progress */
+  animation: loading 8s forwards; /* Animation duration and style */
+}
+
+@keyframes loading {
+  from {
+    width: 0; /* Start width */
+  }
+  to {
+    width: 100%; /* End width */
+  }
+}

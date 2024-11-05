@@ -1,0 +1,48 @@
+.homepage-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  max-width: 600px; /* Set a maximum width for the container */
+  width: 100%; /* Ensure it takes full width available */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding if needed */
+  box-sizing: border-box; /* Include padding in height/width calculations */
+}
+
+.homepage-content {
+  text-align: center; /* Center text within the content */
+  color: white; /* Text color */
+}
+
+.home-btn {
+  margin: 10px; /* Add some space between buttons */
+  padding: 10px 20px; /* Add padding to buttons */
+  font-size: 16px; /* Font size for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  opacity: 1; /* Ensure buttons are fully visible */
+}
+
+.logo {
+  max-width: 100%; /* Make sure the logo is responsive */
+  height: 250px; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add space below the logo */
+  animation: zoom 3s infinite; /* Apply zoom animation */
+}
+
+/* Keyframes for zoom animation */
+@keyframes zoom {
+  0%, 100% {
+    transform: scale(1); /* Original size */
+  }
+  50% {
+    transform: scale(1.1); /* Zoom in to 110% */
+  }
+}
+
+.copyright-text {
+  margin-top: 20px; /* Add some space above the text */
+  color: purple; /* Set text color */
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold;
+}
